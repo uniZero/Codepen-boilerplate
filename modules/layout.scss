@@ -1,0 +1,434 @@
+//---------//
+// Imports //
+//---------//
+
+@import "compass";
+
+//--------------------------//
+// Responsive media queries //
+//--------------------------//
+
+@mixin breakpoint($point) {
+
+	// -- With inheritance -- //
+
+	@if $point == widescreen {
+		@media (min-width: 1224px) { @content; } }
+	@else if $point == desktop {
+		@media (min-width: 769px) { @content; } }
+	@else if $point == tablet {
+		@media (min-width: 481px) { @content; } }
+	@else if $point == mobile {
+		@media (min-width: 0px)  { @content; } }
+	@else if $point == mini {
+		@media (max-width: 480px) { @content; } }
+
+	// -- No inheritance -- //
+
+	@if $point == widescreen-only {
+		@media (min-width: 1224px) { @content; } }
+	@else if $point == desktop-only {
+		@media (min-width: 769px) and (max-width: 1223px) { @content; } }
+	@else if $point == tablet-only {
+		@media (min-width: 481px) and (max-width: 768px) { @content; } }
+	@else if $point == mobile-only {
+		@media (min-width: 261px) and (max-width: 480px)  { @content; } }
+
+}
+
+//-------------------//
+// Spacing variables //
+//-------------------//
+
+$gap: 12px;
+$gap-half: $gap/2;
+$gap-double: $gap*2;
+
+//------------------------//
+// Spacing helper classes //
+//------------------------//
+
+.flush-children-y {
+	& > :first-child { margin-top: 0 !important; }
+	& > :last-child { margin-bottom: 0 !important; }
+}
+
+@mixin gap-p($gm: $gap-half, $gt: $gap, $gd: $gap-double) {
+	@extend .flush-children-y;
+  @include breakpoint(mobile)     { padding: $gm; }
+	@include breakpoint(tablet)     { padding: $gt; }
+	@include breakpoint(desktop)    { padding: $gd; }
+}
+
+@mixin gap-p-y($gm: $gap-half, $gt: $gap, $gd: $gap-double) {
+	@extend .flush-children-y;
+	@include breakpoint(mobile)     { padding-top: $gm; padding-bottom: $gm; }
+	@include breakpoint(tablet)     { padding-top: $gt; padding-bottom: $gt; }
+	@include breakpoint(desktop)    { padding-top: $gd; padding-bottom: $gd; }
+}
+
+@mixin gap-p-x($gm: $gap-half, $gt: $gap, $gd: $gap-double) {
+	@include breakpoint(mobile)     { padding-left: $gm; padding-right: $gm; }
+	@include breakpoint(tablet)     { padding-left: $gt; padding-right: $gt; }
+	@include breakpoint(desktop)    { padding-left: $gd; padding-right: $gd; }
+}
+
+@mixin gap-m($gm: $gap-half, $gt: $gap, $gd: $gap-double) {
+	@include breakpoint(mobile)     { margin: $gm; }
+	@include breakpoint(tablet)     { margin: $gt; }
+	@include breakpoint(desktop)    { margin: $gd; }
+}
+
+@mixin gap-m-y($gm: $gap-half, $gt: $gap, $gd: $gap-double) {
+	@include breakpoint(mobile)     { margin-top: $gm; margin-bottom: $gm; }
+	@include breakpoint(tablet)     { margin-top: $gt; margin-bottom: $gt; }
+	@include breakpoint(desktop)    { margin-top: $gd; margin-bottom: $gd; }
+}
+
+@mixin gap-m-x($gm: $gap-half, $gt: $gap, $gd: $gap-double) {
+	@include breakpoint(mobile)     { margin-left: $gm; margin-right: $gm; }
+	@include breakpoint(tablet)     { margin-left: $gt; margin-right: $gt; }
+	@include breakpoint(desktop)    { margin-left: $gd; margin-right: $gd; }
+}
+
+
+// -- #TODO
+// @mixin gap-m-y
+// @mixin gap-m-x
+
+//-----------------//
+// Color variables //
+//-----------------//
+
+$base-white: #fdfcfa;
+$base-black: #080808;
+
+$light:    shade($base-white,15);
+$lighter:  shade($base-white,10);
+$lightest: shade($base-white,5);
+
+$dark:    scale-lightness($base-black,15);
+$darker:  scale-lightness($base-black,10);
+$darkest: scale-lightness($base-black,5);
+
+//----------------//
+// Color settings //
+//----------------//
+
+$background-color: $base-black;
+
+//----------------------//
+// Typography variables //
+//----------------------//
+
+$font-stack-a: Arial, "Helvetica Neue", Helvetica, sans-serif;
+$font-stack-b: "Arial Black", "Arial Bold", Gadget, sans-serif;
+$base-font-size: 14px;
+$base-line-height: 8px;
+$round-to-nearest-half-line: false;
+
+//------------//
+// Base rules //
+//------------//
+
+html, body { margin: 0; padding: 0; }
+* { @include box-sizing(border-box); }
+img { width: 100%; max-width: 100%; }
+
+//-----//
+// ... //
+//-----//
+
+body {
+	background: $background-color;
+	text-rendering: optimizeLegibility;
+	font-size: 100%; -webkit-text-size-adjust: 100%;
+	font-family: $font-stack-a;
+}
+
+//----------//
+// Sort us! //
+//----------//
+
+$temp-height: auto;
+
+.light-base {
+	background: $base-white;
+	color: $dark;
+	width: 100%; height: $temp-height;
+}
+.light {
+	background: $light;
+	color: $darker;
+	width: 100%; height: $temp-height;
+}
+.lighter {
+	background: $lighter;
+	color: $darkest;
+	width: 100%; height: $temp-height;
+}
+.lightest {
+	background: $lightest;
+	color: $base-black;
+	width: 100%; height: $temp-height;
+}
+.dark-base {
+	background: $base-black;
+	color: $base-white;
+	width: 100%; height: $temp-height;
+}
+.dark {
+	background: $dark;
+	color: $lighter;
+	width: 100%; height: $temp-height;
+}
+.darker {
+	background: $darker;
+	color: $lightest;
+	width: 100%; height: $temp-height;
+}
+.darkest {
+	background: $darkest;
+	color: $light;
+	width: 100%; height: $temp-height;
+}
+
+//----------------------//
+// Typography functions //
+//----------------------//
+
+@function emify($target, $context) {
+   @if $target == 0 { @return 0 }
+   @return $target / $context + 0em;
+}
+
+// Make px to ems using base-font-size 
+// echo as: font-size: em-font(#px);
+
+@function em-font($target, $context: $base-font-size) {
+   @return emify($target, $context);
+}
+
+
+// Make px to ems using base-line-height 
+// echo as: font-size: em-base(#px);
+
+@function em-base($target, $context: $base-line-height) {
+   @return emify($target, $context);
+}
+
+//--------------------------//
+// Typography base settings //
+//--------------------------//
+
+h1 { 
+	@include adjust-font-size-to(36px); 
+	margin: 0 0 rhythm(3, 36px) 0; } 
+
+h2 { 
+	@include adjust-font-size-to(30px); 
+	margin: rhythm(4, 30px) 0 rhythm(2, 30px) 0; }
+
+h3 { 
+	@include adjust-font-size-to(22px); 
+	margin: rhythm(4, 22px) 0 rhythm(2, 22px) 0; } 
+
+h4 { 
+	@include adjust-font-size-to(20px); 
+	margin: 0 0 rhythm(1, 20px) 0; } 
+
+h5 { 
+	@include adjust-font-size-to(18px); 
+	margin: 0 0 rhythm(1, 18px) 0; } 
+
+h6 { 
+	@include adjust-font-size-to(16px); 
+	margin: 0 0 rhythm(1, 16px) 0; }
+
+p, pre, label { 
+	@include adjust-font-size-to(16px); 
+	margin: 0 0 rhythm(2, 16px) 0; }
+
+ol, ul {
+	@include adjust-font-size-to(16px);
+	margin: 0 0 rhythm(4, 16px) 0; }
+
+li { line-height: auto; }
+
+//--------------------//
+// Typography mixins //
+//--------------------//
+
+@mixin unordered {
+	 list-style-position: outside; 
+	 list-style-type: disc; }
+
+@mixin unordered-inside {
+	 list-style-position: inside; 
+	 list-style-type: disc; }
+
+@mixin ordered {
+	list-style-position: outside; 
+	list-style-type: decimal; }
+
+@mixin ordered-inside {
+	list-style-position: inside; 
+	list-style-type: decimal; }
+
+@mixin nobullet { list-style-type: none; }
+
+//--------------------------//
+// Typography core settings //
+//--------------------------//
+
+ul 			{ @include unordered; }
+ol 			{ @include ordered;	}
+strong, b 	{ font-weight: 600; }
+em, i, q 	{ font-style: italic; }
+
+blockquote {
+	padding-left: em-font(16px);
+	border-left: em-font(5px) solid grey;
+	line-height: normal;
+	margin: 0;
+	& p {
+		font-style: italic;
+		margin: 0;
+		@include adjust-font-size-to(20px); 
+		margin: rhythm(3, 20px) 0 rhythm(3, 20px) 0;
+	}
+}
+
+//-----------//
+// Smart row //
+//-----------//
+
+.smart-row {
+  overflow: auto;
+  @for $i from 1 through 16 {
+    & span:first-child:nth-last-child(#{$i}),
+    & span:first-child:nth-last-child(#{$i}) ~ span {
+      float: left;
+      width: ( 100% / $i );
+      @include breakpoint(mobile-only) { width: 100%; }
+    }
+  } 
+}
+
+.smart-row.va-middle {
+  display: table;
+  @for $i from 1 through 16 {
+    & span:first-child:nth-last-child(#{$i}),
+    & span:first-child:nth-last-child(#{$i}) ~ span {
+      @include breakpoint(mobile-only) { width: 100%; }
+      @include breakpoint(tablet) {
+        display: table-cell;
+        vertical-align: middle;
+        float: none;
+      }
+    }
+  } 
+}
+
+//---------------------------//
+// Flush positioning helpers //
+//---------------------------//
+
+.flush-top {
+	margin-top: 0 !important;
+}
+
+.flush-bottom {
+	margin-bottom: 0 !important;
+}
+
+//------------------------------//
+// Figure image caption helpers //
+//------------------------------//
+
+figure img { vertical-align: bottom; }
+
+figure.caption-outside {
+	& figcaption {
+		background: rgba(black,0.25);
+	}
+}
+
+figure.caption-inside {
+	position: relative;
+	& figcaption {
+		background: rgba(white,0.75);
+		position: absolute;
+		bottom: 0;
+		left: 0; right: 0;
+	}
+}
+
+//------------------------//
+// Definition list toggle //
+//------------------------//
+
+dl.toggle dt {
+  cursor: pointer;
+}
+
+dl.toggle dd {
+  display: none;
+  margin: 0;
+}
+
+//---------------------------------------------------------//
+// Center child in container where height/width is unknown //
+//---------------------------------------------------------//
+
+.centered-parent {
+  height: auto;
+  width: 100%;
+  background: gray;
+  text-align: center;
+  overflow: hidden;
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 100%; 
+    vertical-align: middle;
+    margin-right: -0.25em; /* Adjusts for spacing */
+  }
+}
+
+.centered-child {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  margin: auto;
+}
+
+//------------------------------------------//
+// Cover element with another on mouse over //
+//------------------------------------------//
+
+.hover-overlay-parent {
+  position: relative;
+  background: blue;
+  height: 200px;
+}
+
+.hover-overlay-parent:hover {
+  & .hover-overlay {
+    display: block;
+  }
+}
+
+.hover-overlay-parent .hover-overlay {
+  background: rgba(orange,0.75);
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+  display: none;
+}
+
+// test
+
+.page-wrap > div {
+  @include gap-p;
+}
