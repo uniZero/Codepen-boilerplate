@@ -465,6 +465,22 @@ dl.toggle dd {
 
 // Colors //
 
+$red-wh   : scale-lightness($red,   20);
+$orange-wh: scale-lightness($orange,20);
+$yellow-wh: scale-lightness($yellow,20);
+$green-wh : scale-lightness($green, 20);
+$blue-wh  : scale-lightness($blue,  20);
+$indigo-wh: scale-lightness($indigo,20);
+$violet-wh: scale-lightness($violet,20);
+
+$red-bl   : shade($red,   15);
+$orange-bl: shade($orange,15);
+$yellow-bl: shade($yellow,15);
+$green-bl : shade($green, 15);
+$blue-bl  : shade($blue,  15);
+$indigo-bl: shade($indigo,15);
+$violet-bl: shade($violet,15);
+
 $color-a-1: $color-a;
 $color-a-1: adjust-saturation($color-a-1, $color-saturation);
 $color-a-2: scale-lightness($color-a-1,(10*$color-shade-mod));
