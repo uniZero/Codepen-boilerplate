@@ -1,0 +1,2158 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"primary",
+				"primary-color"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"tool",
+				"tooltipster-light"
+			],
+			[
+				"border-tp",
+				"border-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"margn",
+				"margin-bottom"
+			],
+			[
+				"out",
+				"outline-color"
+			],
+			[
+				"padin",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"w",
+				"window"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"end",
+				"endforeach"
+			],
+			[
+				"product",
+				"product_option_count"
+			],
+			[
+				"promo-hue",
+				"promo-hue-1"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"st",
+				"strokeWidth"
+			],
+			[
+				"pane",
+				"pane_c"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"fit",
+				"fit_range_lbs"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"cen",
+				"center"
+			],
+			[
+				"testimon",
+				"testimonial"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"pos",
+				"pos	position: ${1:relative};"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"primar",
+				"primary-white"
+			],
+			[
+				"primary-",
+				"primary-color"
+			],
+			[
+				"active",
+				"active-color"
+			],
+			[
+				"background",
+				"background"
+			],
+			[
+				"Testi",
+				"Testimonials_Post"
+			],
+			[
+				"tet",
+				"Testimonials"
+			],
+			[
+				"moder",
+				"Modernizer"
+			],
+			[
+				"shop",
+				"shopUrlFilter"
+			],
+			[
+				"categor",
+				"category_list"
+			],
+			[
+				"first",
+				"first-of-type"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"rgb",
+				"rgba	rgba()"
+			],
+			[
+				"rg",
+				"rgba	rgba()"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"faq",
+				"faq-icon"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"eight",
+				"eighth"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"upp",
+				"uppercase"
+			],
+			[
+				"info",
+				"infoBubble"
+			],
+			[
+				"cole",
+				"console"
+			],
+			[
+				"pre",
+				"prependThis"
+			],
+			[
+				"marker",
+				"markerImg"
+			],
+			[
+				"goo",
+				"google"
+			],
+			[
+				"this",
+				"thisYGutter"
+			],
+			[
+				"cropped",
+				"croppedWidth"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"par",
+				"parentHeight"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"height",
+				"outerHeight"
+			],
+			[
+				"A",
+				"Accesories"
+			],
+			[
+				"ur",
+				"urlFilter"
+			],
+			[
+				"categ",
+				"category"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"content",
+				"content_item"
+			],
+			[
+				"conte",
+				"contents"
+			],
+			[
+				"Re",
+				"Retailer"
+			],
+			[
+				"new",
+				"newgroup"
+			],
+			[
+				"h",
+				"href	@href"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "codepen-boilerplate.scss",
+			"settings":
+			{
+				"buffer_size": 18932,
+				"line_ending": "Windows",
+				"name": "// Core settings //"
+			}
+		},
+		{
+			"file": "modules/layout.scss",
+			"settings":
+			{
+				"buffer_size": 9683,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"tranti",
+				"Snippet: SCSS - Transition"
+			],
+			[
+				"traile",
+				"Trimmer: Remove trailing whitespace from each line."
+			],
+			[
+				"lem",
+				"Snippet: Lemonstand - Root URL"
+			],
+			[
+				"mq",
+				"Snippet: SCSS - Media Queries"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"iso",
+				"Snippet: SCSS - SUSY - Isolate grid"
+			],
+			[
+				"link",
+				"Snippet: lorem - HTML Kitchen sink"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"place",
+				"Placehold.it: Insert Image"
+			],
+			[
+				"haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"list",
+				"Snippet: HTML - Ordered list"
+			],
+			[
+				"trail",
+				"Trimmer: Remove trailing whitespace from each line."
+			],
+			[
+				"jaa",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"vert",
+				"Snippet: SCSS - Compass - Vertical gradient"
+			],
+			[
+				"header",
+				"Snippet: Comment - SCSS header comment"
+			],
+			[
+				"ver",
+				"Snippet: SCSS - Compass - Vertical gradient"
+			],
+			[
+				"vertical",
+				"Snippet: SCSS - Compass - Vertical gradient"
+			],
+			[
+				"transition",
+				"Snippet: SCSS - Transition"
+			],
+			[
+				"image ",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"img",
+				"Snippet: Image - Placeholder"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lemons",
+				"Snippet: Lemonstand - Root URL"
+			],
+			[
+				"comment",
+				"Snippet: Comment - Section header comment"
+			],
+			[
+				"vertica",
+				"Snippet: SCSS - Compass - Vertical gradient"
+			],
+			[
+				"lemon",
+				"Snippet: Lemonstand - Root URL"
+			],
+			[
+				"lemonsta",
+				"Snippet: Lemonstand - Root URL"
+			],
+			[
+				"lemonstand",
+				"Snippet: Lemonstand - Root URL"
+			],
+			[
+				"lemonst",
+				"Snippet: Lemonstand - Root URL"
+			],
+			[
+				"header comment",
+				"Snippet: Comment - Section header comment"
+			],
+			[
+				"rule",
+				"Snippet: Comment - SCSS rule comment"
+			],
+			[
+				"scss rule",
+				"Snippet: Comment - SCSS rule comment"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"transi",
+				"Snippet: SCSS - Transition (for when more than one is needed)"
+			],
+			[
+				"trans",
+				"Snippet: SCSS - Transition"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"transii",
+				"Snippet: SCSS - Transition"
+			],
+			[
+				"gradient",
+				"Snippet: SCSS - Compass - Vertical gradient"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"remove",
+				"Trimmer: Remove trailing whitespace from each line."
+			],
+			[
+				"white",
+				"Trimmer: Remove trailing whitespace from each line."
+			],
+			[
+				"is",
+				"Snippet: SCSS - SUSY - Isolate grid"
+			],
+			[
+				"jquery",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"isolate",
+				"Snippet: SCSS - SUSY - Isolate grid"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"remove comment",
+				"Tag: Remove Picked Attributes From Tags in Document"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instak",
+				"Package Control: Install Package"
+			],
+			[
+				"outline",
+				"Snippet: CSS - Outline all elements by selector depth (debug)"
+			],
+			[
+				"debug",
+				"Snippet: CSS - Outline all elements by selector depth and z-index (debug)"
+			],
+			[
+				"z-index",
+				"Snippet: CSS - Outline all elements by selector depth and z-index (debug)"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"ul ",
+				"Snippet: ul - Placeholder"
+			],
+			[
+				"synta",
+				"Set Syntax: SCSS"
+			],
+			[
+				"hmal",
+				"BracketHighlighter: Match Brackets (ignore threshold)"
+			],
+			[
+				"compass",
+				"Snippet: SCSS - Compass - Single box shadow"
+			],
+			[
+				"trantion",
+				"Snippet: SCSS - Transition"
+			],
+			[
+				"sass",
+				"Set Syntax: SCSS"
+			],
+			[
+				"syntax scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"box shad",
+				"Snippet: CSS - Box shadow (vendor support)"
+			],
+			[
+				"css box",
+				"Snippet: CSS - Box shadow (vendor support)"
+			],
+			[
+				"box shadow",
+				"Snippet: SCSS - Compass - Single box shadow"
+			],
+			[
+				"box shd",
+				"Snippet: CSS - box-shadow: ;"
+			],
+			[
+				"ouyl",
+				"Snippet: CSS - Outline all elements by selector depth (debug)"
+			],
+			[
+				"box",
+				"Snippet: box-shadow:0 0 0 #000"
+			],
+			[
+				"lorem",
+				"Snippet: lorem - One sentence"
+			],
+			[
+				"html5",
+				"Set Syntax: HTML5"
+			],
+			[
+				"mq	",
+				"Snippet: SCSS - Media Queries"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"SCSS",
+				"Set Syntax: SCSS"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"query",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			]
+		],
+		"width": 592.0
+	},
+	"console":
+	{
+		"height": 919.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/resources/css/layout/_tekrider_framework.scss",
+		"/C/wamp/www/resources/css/style.scss",
+		"/C/wamp/www/modules/shop/invoice_templates/tekrider_invoice/resources/css/standard.css",
+		"/C/wamp/www/modules/shop/invoice_templates/tekrider_invoice/resources/css/print.css",
+		"/C/wamp/www/resources/css/layout/_notification-bar.scss",
+		"/C/wamp/www/resources/css/pages/_home.scss",
+		"/C/wamp/www/resources/css/layout/_header.scss",
+		"/C/wamp/www/resources/css/store/_store.scss",
+		"/C/wamp/www/template_files/default/pages/faqs/page_faqs.php",
+		"/C/wamp/www/template_files/default/pages/contact/page_contact.php",
+		"/C/wamp/www/modules/shop/invoice_templates/tekrider_invoice/invoice.htm",
+		"/C/wamp/www/modules/shop/invoice_templates/tekrider_invoice/info.php",
+		"/C/wamp/www/template_files/default/partials/layout;header.php",
+		"/C/Users/UniZero/Desktop/Tekrider/Temp/Invoice #8   LemonStand.htm",
+		"/C/wamp/www/modules/backend/themes/tekrider-noir/css/theme.css",
+		"/C/wamp/www/modules/backend/themes/tekrider-noir/info.php",
+		"/C/wamp/www/template_files/default/pages/become_a_dealer/page_become_a_dealer.php",
+		"/C/wamp/www/template_files/default/partials/html;head.php",
+		"/C/wamp/www/template_files/default/partials/html;bodyend.php",
+		"/C/wamp/www/modules/backend/themes/tekrider/info.php",
+		"/C/wamp/www/template_files/default/pages/dealer_directory/page_dealer_directory.php",
+		"/C/wamp/www/resources/css/layout/_tekrider_mixins.scss",
+		"/C/wamp/www/resources/css/betanew.scss",
+		"/C/wamp/www/resources/css/beta.scss",
+		"/C/wamp/www/resources/javascript/graveyard.js",
+		"/C/wamp/www/template_files/default/pages/store/page_store.php",
+		"/C/wamp/www/resources/css/beta.css",
+		"/C/wamp/www/resources/javascript/find-a-dealer.js",
+		"/C/wamp/www/resources/javascript/faq.js",
+		"/C/wamp/www/template_files/default/partials/shop;flashmessage;oncart.php",
+		"/C/wamp/www/resources/css/layout/_page-layout.scss",
+		"/C/wamp/www/template_files/default/pages/why_uhmw/page_why_uhmw.php",
+		"/C/wamp/www/resources/css/icons/style.css",
+		"/C/wamp/www/resources/css/style.css",
+		"/C/wamp/www/template_files/default/pages/training/page_training.php",
+		"/C/wamp/www/template_files/default/pages/nutrition/page_nutrition.php",
+		"/C/wamp/www/template_files/default/pages/racing_tips_xc/page_racing_tips_xc.php",
+		"/C/wamp/www/template_files/default/pages/how_to_order/page_how_to_order.php",
+		"/C/wamp/www/template_files/default/pages/racing_tips_sx/page_racing_tips_sx.php",
+		"/C/wamp/www/template_files/default/pages/sponsorship_application/form-files/common/libs_js/easyXDM/easyXDM.min.js",
+		"/C/wamp/www/template_files/default/pages/manager_tips/page_manager_tips.php",
+		"/C/wamp/www/template_files/default/pages/links/page_links.php",
+		"/C/wamp/www/template_files/default/pages/in_action/page_in_action.php",
+		"/C/wamp/www/template_files/default/pages/about/page_about.php",
+		"/C/wamp/www/template_files/default/pages/hello_from_steve/page_hello_from_steve.php",
+		"/C/wamp/www/template_files/default/pages/checklist/page_checklist.php",
+		"/C/wamp/www/template_files/default/pages/print_order/page_print_order.php",
+		"/C/wamp/www/template_files/default/pages/graveyard/page_graveyard.php",
+		"/C/wamp/www/resources/javascript/jquery.mixitup.min.config.js",
+		"/C/wamp/www/template_files/default/partials/cart;empty.php",
+		"/C/Users/UniZero/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/wamp/www/resources/javascript/google.analytics.js",
+		"/C/wamp/www/template_files/default/pages/home/page_home.php",
+		"/C/wamp/www/template_files/default/pages/login/page_login.php",
+		"/C/wamp/www/resources/css/pages/_login-page.scss",
+		"/C/Users/UniZero/AppData/Local/Temp/fz3temp-1/ftp.tekrider.com-ftp_log",
+		"/C/Users/UniZero/AppData/Local/Temp/fz3temp-1/main.php",
+		"/C/wamp/www/resources/javascript/equal-height-col.js",
+		"/C/Users/UniZero/Desktop/Tekrider/Backups/Development/file-based template files/template_files (2)/default/partials/html;bodyend.php",
+		"/C/wamp/www/resources/javascript/layout.js",
+		"/C/Users/UniZero/Desktop/Tekrider/Backups/Development/file-based template files/template_files (2)/default/partials/html;head.php",
+		"/C/wamp/www/resources/javascript/jquery.rs.min.config.js",
+		"/C/wamp/www/resources/css/checkout/_cart.scss",
+		"/C/wamp/www/template_files/default/partials/shop;product;promo;outback;actions.php",
+		"/C/wamp/www/template_files/default/partials/shop;product;price.php",
+		"/C/wamp/www/template_files/default/partials/shop;product;promo;flashsx;actions.php",
+		"/C/wamp/www/resources/css/store/_product-promo.scss",
+		"/C/wamp/www/template_files/default/partials/cart;page.php",
+		"/C/wamp/www/resources/css/store/_product.scss",
+		"/C/wamp/www/template_files/default/pages/cart/page_cart.php",
+		"/C/wamp/www/template_files/default/pages/contact/page_contact.haml",
+		"/C/wamp/www/resources/javascript/map.js",
+		"/C/Users/UniZero/AppData/Local/Temp/fz3temp-1/html;head.php",
+		"/C/Users/UniZero/AppData/Local/Temp/fz3temp-1/html;bodyend.php",
+		"/C/wamp/www/resources/javascript/jquery.rs.min.js",
+		"/C/wamp/www/resources/javascript/jquery.swipebox.min.config.js",
+		"/C/wamp/www/resources/css/plugins/_slider.scss",
+		"/C/wamp/www/resources/css/boilerplate.css",
+		"/C/wamp/www/resources/javascript/smart-resize.js",
+		"/C/wamp/www/resources/javascript/option-ui.js",
+		"/C/wamp/www/resources/javascript/modernizr-2.6.2.min.js",
+		"/C/wamp/www/resources/javascript/jquery.zoom-min.js",
+		"/C/wamp/www/resources/javascript/jquery.swipebox.min.js",
+		"/C/wamp/www/resources/javascript/jquery.mixitup.min.js",
+		"/C/wamp/www/resources/javascript/ios-orientationchange-fix.js",
+		"/C/wamp/www/resources/javascript/infobubble.js",
+		"/C/wamp/www/resources/javascript/dropkick.js",
+		"/C/wamp/www/resources/javascript/ajax_indicator.js",
+		"/C/wamp/www/resources/javascript/_settings.js",
+		"/C/wamp/www/resources/javascript/_onload.js",
+		"/C/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/bin/compass",
+		"/C/Ruby200-x64/bin/compass",
+		"/C/Ruby200-x64/bin/sass",
+		"/C/wamp/www/template_files/default/partials/layout;footer.php",
+		"/C/wamp/www/resources/css/reset.css",
+		"/C/wamp/www/resources/css/screen.scss",
+		"/C/wamp/www/resources/css/_boilerplate.css",
+		"/C/wamp/www/resources/css/normalize.css",
+		"/C/Users/UniZero/AppData/Local/Temp/Rar$DRa0.468/initializr/js/main.js",
+		"/C/Users/UniZero/AppData/Local/Temp/Rar$DRa0.816/initializr/js/plugins.js",
+		"/C/wamp/www/resources/css/print.css",
+		"/C/wamp/www/resources/css/_screen.css",
+		"/C/wamp/www/resources/css/form-layout.scss",
+		"/C/wamp/www/resources/css/_tekrider_ui.scss",
+		"/C/wamp/www/resources/css/_contact.scss",
+		"/C/wamp/www/resources/css/_rabbit-hole.scss",
+		"/C/wamp/www/template_files/default/partials/html;head;form.php",
+		"/C/wamp/www/resources/css/libs/_forms.scss",
+		"/C/wamp/www/resources/css/_icon-font.sass",
+		"/C/wamp/www/resources/css/_mixins.sass",
+		"/C/wamp/www/resources/css/_color-cooker.scss",
+		"/C/wamp/www/resources/css/_config.sass",
+		"/C/wamp/www/resources/css/overide.css",
+		"/C/wamp/www/resources/css/ls_default.css",
+		"/C/wamp/www/resources/css/content.css",
+		"/C/wamp/www/resources/css/e-sandbox.css",
+		"/C/wamp/www/resources/css/_store.scss",
+		"/C/wamp/www/resources/css/_temp.scss",
+		"/C/wamp/www/resources/css/_page-layout.scss",
+		"/C/wamp/www/resources/css/_product.scss",
+		"/C/wamp/www/resources/css/_susy.scss",
+		"/C/wamp/www/resources/css/susy/_settings.scss",
+		"/C/wamp/www/resources/css/_header.scss",
+		"/C/wamp/www/resources/css/_404.scss",
+		"/C/wamp/www/resources/css/_login-page.scss",
+		"/C/wamp/www/resources/javascript/404.js",
+		"/C/wamp/www/resources/javascript/_preload.js",
+		"/C/wamp/www/resources/javascript/dev/_onload.js"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\wamp\\www\\resources",
+			"C:\\wamp\\www\\template_files",
+			"C:\\Users\\UniZero\\Documents\\_Tekrider\\2013\\Backup\\2013-02-05\\public_html\\vcs\\cms_template_files\\tekrider",
+			"C:\\wamp\\www\\resources",
+			"C:\\wamp\\www\\template_files",
+			"<project>",
+			"C:\\wamp\\www",
+			"C:\\wamp\\www\\resources",
+			"<project>",
+			"C:\\wamp\\www\\resources",
+			"C:\\wamp\\www\\template_files",
+			"C:\\wamp\\www\\resources\\css",
+			"C:\\wamp\\www\\modules\\grouptest",
+			"C:\\wamp\\www\\modules",
+			"C:\\wamp\\www\\modules\\gallery"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"	",
+			"-light",
+			"R",
+			"color-bl-tint",
+			"color-black-tint",
+			"color-white-tint",
+			"color-c",
+			"color-b",
+			"color-c",
+			"color-b",
+			"color-a",
+			"$bg-img",
+			"$dropdown-img",
+			"$bg-img",
+			"$mini-font-size",
+			"yellow",
+			"0",
+			"adjust-saturation(scale-lightness($primary-color-2,20),30)",
+			"<span>Phone:",
+			"<dd>",
+			"<dt>",
+			".toggle",
+			"Back to Find a Dealer page",
+			"...................................................................................................................................................................................................................",
+			"Phone:",
+			"tel:",
+			"\">\n",
+			"h3",
+			"h2",
+			"body",
+			", ",
+			"* ",
+			"<li>",
+			"</li>",
+			" - ",
+			"h3",
+			"h2",
+			"h4",
+			"	",
+			"width=\"14\"",
+			"images/c_box.gif",
+			"offsetWidth",
+			"grab.png",
+			"grab",
+			"\")",
+			"root_url(\"",
+			"\")",
+			"root_url(\"",
+			"@javascript/",
+			"/dev/",
+			"root_url",
+			"left",
+			"GUI",
+			"bg",
+			"login",
+			"$header-texture",
+			"\n}",
+			"    width: 100%;\n    width: 100%;\n    width: 100%;\n    width: 100%;\n",
+			"grouptest",
+			"$set",
+			"	",
+			"\n    ",
+			"hover",
+			"PersonalizeProduct",
+			"div class=\"fs1\"",
+			"<div aria-hidden=\"true\"",
+			"product-size",
+			"update_product_price",
+			"base_product_price",
+			"base",
+			"update_product_price",
+			"formatNumber",
+			" class=\"promo_list_child\"",
+			"promo-content",
+			"}",
+			"#wrapper",
+			"#wrap",
+			"mixin",
+			"color",
+			"background",
+			"tekrider-scss/",
+			"rect_a",
+			"rect_1",
+			"rect_gold",
+			"rectangle_gr",
+			".auto-padding",
+			"icon-disc",
+			"mixin",
+			"0.7",
+			"0.15",
+			"fadeIn()",
+			"$(function() {\nonColorChange",
+			"onColorChange",
+			"zoom.png",
+			"/resources/",
+			"href=\"/",
+			"href=",
+			"upload_max_filesize",
+			"memory_limit",
+			"& a",
+			"a",
+			"page_container",
+			"error",
+			".error",
+			"error",
+			"inner_wrapper",
+			"{\n",
+			"// ",
+			"summary-total-price",
+			"product-categories",
+			"product_description_list",
+			"checkout_progress_list",
+			"store-subhead",
+			"menu-icon",
+			"icon-item",
+			"product-list",
+			"product-list-wrap",
+			"cart-bottom",
+			"review-totals",
+			"info-summary",
+			"//",
+			"} //",
+			"//",
+			"page-header-box-shadow",
+			"nav-box-shadow",
+			"group-button-link",
+			"select",
+			"        margin-top: 1em;\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"  ",
+			"color-black-tint",
+			"color-white-tint",
+			"color-bl-tint",
+			"color-d",
+			"color-c",
+			"color-d",
+			"color-c",
+			"color-d",
+			"color-c",
+			"color-b",
+			"<span class=\"phone\">Phone:",
+			"<dd class=\"body\">",
+			"<dt class=\"head\">",
+			".checkbox,\n.checkbox.toggle, .radio.toggle",
+			"",
+			"<strong>Phone:</strong>",
+			"h2",
+			"h1",
+			"",
+			"h2",
+			"h1",
+			"strong",
+			"width=\"14px\"",
+			"http://tekrider.com/images/c_box.gif",
+			"",
+			"/resources/javascript/",
+			"/",
+			"site_url",
+			"dealerarea",
+			"$gallery",
+			"$gallery ",
+			" ",
+			"update_promo_product_price",
+			"",
+			"promo-info",
+			"#slider-wrapper",
+			"#body-wrap",
+			"include",
+			"",
+			"rect",
+			"rect_[i]",
+			"rect_1[i]",
+			"rect_a",
+			"rect_gold",
+			"mainPane_w",
+			"(pane_w/2)",
+			"0.05",
+			"slideDown()",
+			"../",
+			".fixed-bg",
+			"$tmony-tip-size",
+			"<span class=\"faq-icon icon-uniF476\" aria-hidden=\"true\">",
+			"<span class=\"faq-icon\" aria-hidden=\"true\" class=\"icon-uniF476\">",
+			"<span class=\"faq-icon\" aria-hidden=\"true\" data-icon=\"\">",
+			"<span class=\"faq-icon\" aria-hidden=\"true\" data-icon=\"\"></span>",
+			"onAfterUpdate:{init_effects, scrolltoTop},",
+			".sub-menu",
+			"",
+			"icon-item",
+			"icon-page",
+			"",
+			".link-normal",
+			".link-hover",
+			".link-active",
+			"hashname",
+			".product-list",
+			"$notworking-value-4",
+			"$notworking-value-3",
+			"$notworking-value-2",
+			"$notworking-value-1",
+			"$another-value-4",
+			"$another-value-3",
+			"$another-value-2",
+			"$another-value-1",
+			"$new-value-5",
+			"$new-value-4",
+			"$new-value-3",
+			"$new-value-2",
+			"$new-value-1",
+			"$base-2-no-px",
+			"$base-px",
+			"",
+			"$primary-black",
+			"$option-bg-active",
+			"$option-bg-hover",
+			"$option-bg",
+			"[class*=\"col_\"",
+			"\"http://en.wikipedia.org/wiki/",
+			"",
+			"end row",
+			"autocomplete=\"on\"",
+			"poop",
+			"",
+			"faqs",
+			"<hr>",
+			"$url",
+			"",
+			"resetStyleCss",
+			"#sidebar_section",
+			"#content_sidebar ul",
+			"#content_sidebar h1",
+			"content_sidebar",
+			"#header_feed_bar",
+			" - ",
+			"steve_bio_main_image_wrap",
+			"#steve_bio_side_info",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "codepen-boilerplate.scss",
+					"settings":
+					{
+						"buffer_size": 18932,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								18932
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_name": "// Core settings //",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"is_xml": false,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "modules/layout.scss",
+					"settings":
+					{
+						"buffer_size": 9683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3468,
+								3468
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"is_xml": false,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2120.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				3
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			],
+			[
+				1,
+				2,
+				2,
+				3
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.794054487179,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.79754601227,
+			0.948875255624,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"tekrider",
+				"resources/css/layout/_tekrider_framework.scss"
+			],
+			[
+				"style",
+				"resources/css/style.scss"
+			],
+			[
+				"noti",
+				"resources/css/layout/_notification-bar.scss"
+			],
+			[
+				"frame",
+				"resources/css/layout/_tekrider_framework.scss"
+			],
+			[
+				"home",
+				"resources/css/pages/_home.scss"
+			],
+			[
+				"header",
+				"resources/css/layout/_header.scss"
+			],
+			[
+				"layout",
+				"template_files/default/partials/layout;header.php"
+			],
+			[
+				"store",
+				"resources/css/store/_store.scss"
+			],
+			[
+				"faq",
+				"template_files/default/pages/faqs/page_faqs.php"
+			],
+			[
+				"contact",
+				"template_files/default/pages/contact/page_contact.php"
+			],
+			[
+				"become",
+				"template_files/default/pages/become_a_dealer/page_become_a_dealer.php"
+			],
+			[
+				"htmlhead",
+				"template_files/default/partials/html;head.php"
+			],
+			[
+				"beta",
+				"resources/css/beta.scss"
+			],
+			[
+				"dealer_dir",
+				"template_files/default/pages/dealer_directory/page_dealer_directory.php"
+			],
+			[
+				".js",
+				"resources/javascript/faq.js"
+			],
+			[
+				"flash",
+				"template_files/default/partials/shop;flashmessage;oncart.php"
+			],
+			[
+				"tekrd",
+				"resources/css/layout/_tekrider_mixins.scss"
+			],
+			[
+				"pagelayout",
+				"resources/css/layout/_page-layout.scss"
+			],
+			[
+				"uhmw",
+				"template_files/default/pages/why_uhmw/page_why_uhmw.php"
+			],
+			[
+				"nutr",
+				"template_files/default/pages/nutrition/page_nutrition.php"
+			],
+			[
+				"training",
+				"template_files/default/pages/training/page_training.php"
+			],
+			[
+				"sx",
+				"template_files/default/pages/racing_tips_sx/page_racing_tips_sx.php"
+			],
+			[
+				"racing",
+				"template_files/default/pages/racing_tips_sx/page_racing_tips_sx.php"
+			],
+			[
+				"xs",
+				"template_files/default/pages/sponsorship_application/form-files/common/libs_js/easyXDM/easyXDM.min.js"
+			],
+			[
+				"manager",
+				"template_files/default/pages/manager_tips/page_manager_tips.php"
+			],
+			[
+				"nutri",
+				"template_files/default/pages/nutrition/page_nutrition.php"
+			],
+			[
+				"links",
+				"template_files/default/pages/links/page_links.php"
+			],
+			[
+				"inaction",
+				"template_files/default/pages/in_action/page_in_action.php"
+			],
+			[
+				"order",
+				"template_files/default/pages/how_to_order/page_how_to_order.php"
+			],
+			[
+				"about",
+				"template_files/default/pages/about/page_about.php"
+			],
+			[
+				"hello",
+				"template_files/default/pages/hello_from_steve/page_hello_from_steve.php"
+			],
+			[
+				"dealerdire",
+				"template_files/default/pages/dealer_directory/page_dealer_directory.php"
+			],
+			[
+				"pagela",
+				"resources/css/layout/_page-layout.scss"
+			],
+			[
+				"print",
+				"template_files/default/pages/print_order/page_print_order.php"
+			],
+			[
+				"checklist",
+				"template_files/default/pages/checklist/page_checklist.php"
+			],
+			[
+				"train",
+				"template_files/default/pages/training/page_training.php"
+			],
+			[
+				"racin",
+				"template_files/default/pages/racing_tips_sx/page_racing_tips_sx.php"
+			],
+			[
+				"nut",
+				"template_files/default/pages/nutrition/page_nutrition.php"
+			],
+			[
+				"inact",
+				"template_files/default/pages/in_action/page_in_action.php"
+			],
+			[
+				"howto",
+				"template_files/default/pages/how_to_order/page_how_to_order.php"
+			],
+			[
+				"dire",
+				"template_files/default/pages/dealer_directory/page_dealer_directory.php"
+			],
+			[
+				"grave",
+				"template_files/default/pages/graveyard/page_graveyard.php"
+			],
+			[
+				"mix",
+				"resources/javascript/jquery.mixitup.min.config.js"
+			],
+			[
+				"cart",
+				"template_files/default/partials/cart;empty.php"
+			],
+			[
+				"google",
+				"resources/javascript/google.analytics.js"
+			],
+			[
+				"login",
+				"resources/css/pages/_login-page.scss"
+			],
+			[
+				"height",
+				"resources/javascript/equal-height-col.js"
+			],
+			[
+				"layu",
+				"resources/javascript/layout.js"
+			],
+			[
+				"htmlh",
+				"template_files/default/partials/html;head.php"
+			],
+			[
+				"product",
+				"resources/css/store/_product-promo.scss"
+			],
+			[
+				"productprice",
+				"template_files/default/partials/shop;product;price.php"
+			],
+			[
+				"outback",
+				"template_files/default/partials/shop;product;promo;outback;actions.php"
+			],
+			[
+				"promo",
+				"template_files/default/partials/shop;product;promo;outback;actions.php"
+			],
+			[
+				"fra",
+				"resources/css/layout/_tekrider_framework.scss"
+			],
+			[
+				"body",
+				"template_files/default/partials/html;bodyend.php"
+			],
+			[
+				"map",
+				"resources/javascript/map.js"
+			],
+			[
+				"html",
+				"template_files/default/partials/html;head.php"
+			],
+			[
+				"rs.js",
+				"resources/javascript/jquery.rs.min.config.js"
+			],
+			[
+				"rs",
+				"resources/javascript/jquery.rs.min.js"
+			],
+			[
+				"rsconfig",
+				"resources/javascript/jquery.swipebox.min.config.js"
+			],
+			[
+				"slider",
+				"resources/css/plugins/_slider.scss"
+			],
+			[
+				"page",
+				"resources/css/layout/_page-layout.scss"
+			],
+			[
+				"footer",
+				"template_files/default/partials/layout;footer.php"
+			],
+			[
+				"form",
+				"resources/css/libs/_forms.scss"
+			],
+			[
+				"rabbit",
+				"resources/css/_rabbit-hole.scss"
+			],
+			[
+				"temp",
+				"resources/css/_temp.scss"
+			],
+			[
+				"head",
+				"resources/css/_header.scss"
+			],
+			[
+				"onload",
+				"resources/javascript/dev/_onload.js"
+			],
+			[
+				"drop",
+				"resources/javascript/dev/dropkick.js"
+			],
+			[
+				"mobil",
+				"resources/javascript/dev/mobile-dropdown.js"
+			],
+			[
+				"size",
+				"template_files/default/partials/shop;product;sizeguide.php"
+			],
+			[
+				"equal",
+				"resources/javascript/equal-height-col.js"
+			],
+			[
+				"founder",
+				"template_files/default/pages/steve-brand/page_founder.php"
+			],
+			[
+				"404",
+				"template_files/default/pages/404/page_404.php"
+			],
+			[
+				"register",
+				"template_files/default/pages/register_done/page_register_done.php"
+			],
+			[
+				"reg",
+				"template_files/default/pages/register/page_register.php"
+			],
+			[
+				"tekrder",
+				"resources/css/_tekrider_mixins.scss"
+			],
+			[
+				"actions",
+				"template_files/default/partials/shop;product;promo;flashsx;actions.php"
+			],
+			[
+				"productpromo",
+				"template_files/default/partials/shop;product;promo.php"
+			],
+			[
+				"checkout",
+				"template_files/default/partials/checkout;review.php"
+			],
+			[
+				"thankyou",
+				"template_files/default/pages/thankyou/page_thankyou.php"
+			],
+			[
+				"bodyend",
+				"template_files/default/partials/html;bodyend.php"
+			],
+			[
+				"headform",
+				"template_files/default/partials/html;head;form.php"
+			],
+			[
+				"thayou",
+				"resources/css/_order_thankyou.scss"
+			],
+			[
+				"rint",
+				"template_files/default/layouts/print.php"
+			],
+			[
+				"empty",
+				"template_files/default/partials/cart;empty.php"
+			],
+			[
+				"sandbox",
+				"template_files/default/pages/sandbox/page_sandbox.php"
+			],
+			[
+				"paye",
+				"template_files/default/pages/payment/page_payment.php"
+			],
+			[
+				"sand",
+				"template_files/default/pages/sandbox/page_sandbox.php"
+			],
+			[
+				"payment",
+				"template_files/default/partials/checkout;payment_method.php"
+			],
+			[
+				"shipping",
+				"template_files/default/partials/checkout;shipping_method.php"
+			],
+			[
+				"payen",
+				"template_files/default/pages/payment/page_payment.php"
+			],
+			[
+				"tekr",
+				"resources/css/_tekrider_mixins.scss"
+			],
+			[
+				"gallery",
+				"template_files/default/pages/gallery-page/page_media_gallery.php"
+			],
+			[
+				"media",
+				"template_files/default/pages/media/page_media.php"
+			],
+			[
+				"testimonial",
+				"resources/css/_testimonial-dir.scss"
+			],
+			[
+				"mod",
+				"template_files/default/pages/mod_dev/page_mod_dev.php"
+			],
+			[
+				"billing",
+				"template_files/default/partials/checkout;billing_info.php"
+			],
+			[
+				"sub",
+				"resources/css/_sub-nav.scss"
+			],
+			[
+				"tek",
+				"resources/css/_tekrider_mixins.scss"
+			],
+			[
+				"testimony",
+				"template_files/default/pages/testimony/page_testimony.php"
+			],
+			[
+				"dealer",
+				"template_files/default/pages/dealer/page_dealer.php"
+			],
+			[
+				"test",
+				"resources/css/_testimonial-dir.scss"
+			],
+			[
+				"testimon",
+				"resources/css/_testimonial-dir.scss"
+			],
+			[
+				"testimonia",
+				"template_files/default/pages/testimonials/page_testimonials.php"
+			],
+			[
+				"hoem",
+				"template_files/default/pages/home/page_home.php"
+			],
+			[
+				"rs.s",
+				"resources/css/rs.css"
+			],
+			[
+				"config",
+				"resources/javascript/carouFredSel/carouFredSel.config.js"
+			],
+			[
+				"esand",
+				"resources/css/e-sandbox.css"
+			],
+			[
+				"carousal",
+				"resources/javascript/carouFredSel/carouFredSel.config.js"
+			],
+			[
+				"f;ash",
+				"template_files/default/partials/shop;product;promo;flashsx;actions.php"
+			],
+			[
+				"produc",
+				"template_files/default/partials/shop;product_list.php"
+			],
+			[
+				"shop",
+				"template_files/default/partials/shop;product.php"
+			],
+			[
+				"mixin",
+				"resources/css/libs/_mixins.scss"
+			],
+			[
+				"custom",
+				"template_files/default/partials/cart;table;customtextoptions.php"
+			],
+			[
+				"outbakc",
+				"template_files/default/partials/shop;product;promo;outback;actions.php"
+			],
+			[
+				"sizing",
+				"sizingchart/classes/sizingchart_module.php"
+			],
+			[
+				"method",
+				"template_files/default/partials/checkout;payment_method.php"
+			],
+			[
+				"fouder",
+				"template_files/default/pages/steve-brand/page_founder.php"
+			],
+			[
+				"mixins",
+				"resources/css/_tekrider_mixins.scss"
+			],
+			[
+				"carousl",
+				"resources/javascript/carouFredSel/carouFredSel.config.js"
+			],
+			[
+				"homehome",
+				"template_files/default/pages/home/page_home.php"
+			],
+			[
+				"on",
+				"resources/javascript/dev/_onload.js"
+			],
+			[
+				"promoextra",
+				"template_files/default/partials/shop;product;promo;extraoptions.php"
+			],
+			[
+				"productoption",
+				"tekrider/partials/shop;product_options.php"
+			],
+			[
+				"extra",
+				"template_files/default/partials/shop;product;promo;extraoptions.php"
+			],
+			[
+				"promoprice",
+				"template_files/default/partials/shop;product;promo;price.php"
+			],
+			[
+				"options",
+				"template_files/default/partials/shop;product;options.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 735.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/UniZero/Documents/ruby on rails (notes).sublime-project"
+			]
+		],
+		"width": 736.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true
+}
