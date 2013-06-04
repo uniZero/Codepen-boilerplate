@@ -1,0 +1,231 @@
+// Core settings //
+
+$color-shade-mod: 1; // -2 through 2 , negative #'s shade - positive #'s brighten
+$color-white-tint: 90;
+$color-black-tint: -80;
+$color-saturation: 0;
+$color-bw-saturation: -90;
+$color-gray-saturation: -90;
+
+// Base color options //
+
+$red:    #DF151A; 
+$orange: #FD8603; 
+$yellow: #FFDD00; 
+$green:  #90D228; 
+$blue:   #1693A5; 
+$indigo: #3A3862; 
+$violet: #270F3D; 
+
+// Color options //
+
+$color-a: $indigo;
+$color-b: $green;
+$color-c: $blue;
+$color-d: $red;
+
+// Matrix one color modulator //
+
+$color-a-1: $color-a;
+$color-a-1: adjust-saturation($color-a-1, $color-saturation);
+$color-a-2: scale-lightness($color-a-1,(10*$color-shade-mod));
+$color-a-3: scale-lightness($color-a-1,(20*$color-shade-mod));
+$color-a-4: scale-lightness($color-a-1,(30*$color-shade-mod));
+$color-a-5: scale-lightness($color-a-1,(40*$color-shade-mod));
+$color-a-6: scale-lightness($color-a-1,(50*$color-shade-mod));
+$color-a-wh: scale-lightness(adjust-saturation($color-a-1,$color-bw-saturation), $color-black-tint);
+$color-a-bl: scale-lightness(adjust-saturation($color-a-1,$color-bw-saturation), $color-white-tint);
+$color-a-gr-1: shade(adjust-saturation($color-a-1,$color-gray-saturation),16);
+$color-a-gr-2: shade(adjust-saturation($color-a-1,$color-gray-saturation),33);
+$color-a-gr-3: shade(adjust-saturation($color-a-1,$color-gray-saturation),50);
+$color-a-gr-4: shade(adjust-saturation($color-a-1,$color-gray-saturation),60);
+
+$color-b-1: $color-b;
+$color-b-1: adjust-saturation($color-b-1, $color-saturation);
+$color-b-2: scale-lightness($color-b-1,(10*$color-shade-mod));
+$color-b-3: scale-lightness($color-b-1,(20*$color-shade-mod));
+$color-b-4: scale-lightness($color-b-1,(30*$color-shade-mod));
+$color-b-5: scale-lightness($color-b-1,(40*$color-shade-mod));
+$color-b-6: scale-lightness($color-b-1,(50*$color-shade-mod));
+$color-b-wh: scale-lightness(adjust-saturation($color-b-1,$color-bw-saturation), $color-black-tint);
+$color-b-bl: scale-lightness(adjust-saturation($color-b-1,$color-bw-saturation), $color-white-tint);
+$color-b-gr-1: shade(adjust-saturation($color-b-1,$color-gray-saturation),16);
+$color-b-gr-2: shade(adjust-saturation($color-b-1,$color-gray-saturation),33);
+$color-b-gr-3: shade(adjust-saturation($color-b-1,$color-gray-saturation),50);
+$color-b-gr-4: shade(adjust-saturation($color-b-1,$color-gray-saturation),60);
+
+$color-c-1: $color-c;
+$color-c-1: adjust-saturation($color-c-1, $color-saturation);
+$color-c-2: scale-lightness($color-c-1,(10*$color-shade-mod));
+$color-c-3: scale-lightness($color-c-1,(20*$color-shade-mod));
+$color-c-4: scale-lightness($color-c-1,(30*$color-shade-mod));
+$color-c-5: scale-lightness($color-c-1,(40*$color-shade-mod));
+$color-c-6: scale-lightness($color-c-1,(50*$color-shade-mod));
+$color-c-wh: scale-lightness(adjust-saturation($color-c-1,$color-bw-saturation), $color-black-tint);
+$color-c-bl: scale-lightness(adjust-saturation($color-c-1,$color-bw-saturation), $color-white-tint);
+$color-c-gr-1: shade(adjust-saturation($color-c-1,$color-gray-saturation),16);
+$color-c-gr-2: shade(adjust-saturation($color-c-1,$color-gray-saturation),33);
+$color-c-gr-3: shade(adjust-saturation($color-c-1,$color-gray-saturation),50);
+$color-c-gr-4: shade(adjust-saturation($color-c-1,$color-gray-saturation),60);
+
+$color-d-1: $color-d;
+$color-d-1: adjust-saturation($color-d-1, $color-saturation);
+$color-d-2: scale-lightness($color-d-1,(10*$color-shade-mod));
+$color-d-3: scale-lightness($color-d-1,(20*$color-shade-mod));
+$color-d-4: scale-lightness($color-d-1,(30*$color-shade-mod));
+$color-d-5: scale-lightness($color-d-1,(40*$color-shade-mod));
+$color-d-6: scale-lightness($color-d-1,(50*$color-shade-mod));
+$color-d-wh: scale-lightness(adjust-saturation($color-d-1,$color-bw-saturation), $color-black-tint);
+$color-d-bl: scale-lightness(adjust-saturation($color-d-1,$color-bw-saturation), $color-white-tint);
+$color-d-gr-1: shade(adjust-saturation($color-d-1,$color-gray-saturation),16);
+$color-d-gr-2: shade(adjust-saturation($color-d-1,$color-gray-saturation),33);
+$color-d-gr-3: shade(adjust-saturation($color-d-1,$color-gray-saturation),50);
+$color-d-gr-4: shade(adjust-saturation($color-d-1,$color-gray-saturation),60);
+
+// Matrix two ink boiler //
+
+$color-gr-1: shade(white,(1/8*10));
+$color-gr-2: shade(white,(2/8*10));
+$color-gr-3: shade(white,(3/8*15));
+$color-gr-4: shade(white,(4/8*20));
+$color-gr-5: shade(white,(5/8*25));
+$color-gr-6: shade(white,(6/8*30));
+$color-gr-7: shade(white,(7/8*35));
+$color-gr-8: shade(white,(8/8*40));
+
+$color-dgr-1: shade(white, 25);
+$color-dgr-2: shade(white, 50);
+$color-dgr-3: shade(white, 75);
+$color-dgr-4: shade(white, 90);
+
+$color-bl-1: shade(white,90);
+$color-bl-2: shade(white,91);
+$color-bl-3: shade(white,92);
+$color-bl-4: shade(white,93);
+$color-bl-5: shade(white,94);
+$color-bl-6: shade(white,95);
+$color-bl-7: shade(white,96);
+$color-bl-8: shade(white,97);
+
+// Color mastering helpers //
+
+[class*="color-a"] { color: $color-a-bl }
+[class*="color-b"] { color: $color-b-bl }
+[class*="color-c"] { color: $color-c-bl }
+[class*="color-d"] { color: $color-d-bl }
+
+// Color wrapper //
+
+.colors {
+  color: rgba(white,0.25);
+  text-shadow: 0px 0px rgba(black,0.5);
+  & span { padding: 24px; }
+  &.rainbow {text-align: center; color: white; }
+}
+
+// Rainbow things //
+.red    { background: $red; }
+.orange { background: $orange; }
+.yellow { background: $yellow; }
+.green  { background: $green; }
+.blue   { background: $blue; }
+.indigo { background: $indigo; }
+.violet { background: $violet; }
+
+.red-wh    { background: scale-lightness($red,   20); }
+.orange-wh { background: scale-lightness($orange,20); }
+.yellow-wh { background: scale-lightness($yellow,20); }
+.green-wh  { background: scale-lightness($green, 20); }
+.blue-wh   { background: scale-lightness($blue,  20); }
+.indigo-wh { background: scale-lightness($indigo,20); }
+.violet-wh { background: scale-lightness($violet,20); }
+
+.red-bl    { background: shade($red,   15); }
+.orange-bl { background: shade($orange,15); }
+.yellow-bl { background: shade($yellow,15); }
+.green-bl  { background: shade($green, 15); }
+.blue-bl   { background: shade($blue,  15); }
+.indigo-bl { background: shade($indigo,15); }
+.violet-bl { background: shade($violet,15); }
+
+// Shades of gray //
+.color-gr-1 { background: $color-gr-1; }
+.color-gr-2 { background: $color-gr-2; }
+.color-gr-3 { background: $color-gr-3; }
+.color-gr-4 { background: $color-gr-4; }
+.color-gr-5 { background: $color-gr-5; }
+.color-gr-6 { background: $color-gr-6; }
+.color-gr-7 { background: $color-gr-7; }
+.color-gr-8 { background: $color-gr-8; }
+
+// Dark shades of gray //
+.color-dgr-1 { background: $color-dgr-1; }
+.color-dgr-2 { background: $color-dgr-2; }
+.color-dgr-3 { background: $color-dgr-3; }
+.color-dgr-4 { background: $color-dgr-4; }
+
+// Shades of black
+.color-bl-1 { background: $color-bl-1; }
+.color-bl-2 { background: $color-bl-2; }
+.color-bl-3 { background: $color-bl-3; }
+.color-bl-4 { background: $color-bl-4; }
+.color-bl-5 { background: $color-bl-5; }
+.color-bl-6 { background: $color-bl-6; }
+.color-bl-7 { background: $color-bl-7; }
+.color-bl-8 { background: $color-bl-8; }
+
+// Color A //
+.color-a-1 { background: $color-a-1; }
+.color-a-2 { background: $color-a-2; }
+.color-a-3 { background: $color-a-3; }
+.color-a-4 { background: $color-a-4; }
+.color-a-5 { background: $color-a-5; }
+.color-a-6 { background: $color-a-6; }
+.color-a-bl { background: $color-a-bl; color: $color-a-wh; }
+.color-a-wh { background: $color-a-wh; }
+.color-a-gr-1 { background: $color-a-gr-1; }
+.color-a-gr-2 { background: $color-a-gr-2; }
+.color-a-gr-3 { background: $color-a-gr-3; }
+.color-a-gr-4 { background: $color-a-gr-4; }
+
+// Color B //
+.color-b-1 { background: $color-b-1; }
+.color-b-2 { background: $color-b-2; }
+.color-b-3 { background: $color-b-3; }
+.color-b-4 { background: $color-b-4; }
+.color-b-5 { background: $color-b-5; }
+.color-b-6 { background: $color-b-6; }
+.color-b-bl { background: $color-b-bl; color: $color-b-wh; }
+.color-b-wh { background: $color-b-wh; }
+.color-b-gr-1 { background: $color-b-gr-1; }
+.color-b-gr-2 { background: $color-b-gr-2; }
+.color-b-gr-3 { background: $color-b-gr-3; }
+.color-b-gr-4 {background: $color-b-gr-4; }
+
+// Color C //
+.color-c-1 { background: $color-c-1; }
+.color-c-2 { background: $color-c-2; }
+.color-c-3 { background: $color-c-3; }
+.color-c-4 { background: $color-c-4; }
+.color-c-5 { background: $color-c-5; }
+.color-c-6 { background: $color-c-6; }
+.color-c-bl { background: $color-c-bl; color: $color-c-wh; }
+.color-c-wh { background: $color-c-wh; }
+.color-c-gr-1 { background: $color-c-gr-1; }
+.color-c-gr-2 { background: $color-c-gr-2; }
+.color-c-gr-3 { background: $color-c-gr-3; }
+.color-c-gr-4 { background: $color-c-gr-4; }
+
+// Color D //
+.color-d-1 { background: $color-d-1; }
+.color-d-2 { background: $color-d-2; }
+.color-d-3 { background: $color-d-3; }
+.color-d-4 { background: $color-d-4; }
+.color-d-5 { background: $color-d-5; }
+.color-d-6 { background: $color-d-6; }
+.color-d-bl { background: $color-d-bl; color: $color-d-wh; }
+.color-d-wh { background: $color-d-wh; }
+.color-d-gr-1 { background: $color-d-gr-1; }
+.color-d-gr-2 { background: $color-d-gr-2; }
+.color-d-gr-3 { background: $color-d-gr-3; }
+.color-d-gr-4 { background: $color-d-gr-4; }
