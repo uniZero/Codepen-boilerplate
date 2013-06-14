@@ -141,7 +141,7 @@ $color-d: $red;
 // Color settings //
 //----------------//
 
-$background-color: $base-black;
+// ..nothing yet //
 
 //----------------------//
 // Typography variables //
@@ -166,7 +166,6 @@ img { width: 100%; max-width: 100%; }
 //-----//
 
 body {
-	background: $background-color;
 	text-rendering: optimizeLegibility;
 	font-size: 100%; -webkit-text-size-adjust: 100%;
 	font-family: $font-stack-a;
