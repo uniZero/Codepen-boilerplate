@@ -159,7 +159,7 @@ $round-to-nearest-half-line: false;
 
 html, body { margin: 0; padding: 0; }
 * { @include box-sizing(border-box); }
-img { width: 100%; max-width: 100%; }
+img { width: 100%; max-width: 100%; display: block; }
 
 //-----//
 // ... //
