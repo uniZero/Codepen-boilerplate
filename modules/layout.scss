@@ -4,38 +4,6 @@
 
 @import "compass";
 
-//--------------------------//
-// Responsive media queries //
-//--------------------------//
-
-@mixin breakpoint($point) {
-
-	// -- With inheritance -- //
-
-	@if $point == widescreen {
-		@media (min-width: 1224px) { @content; } }
-	@else if $point == desktop {
-		@media (min-width: 769px) { @content; } }
-	@else if $point == tablet {
-		@media (min-width: 481px) { @content; } }
-	@else if $point == mobile {
-		@media (min-width: 0px)  { @content; } }
-	@else if $point == mini {
-		@media (max-width: 480px) { @content; } }
-
-	// -- No inheritance -- //
-
-	@if $point == widescreen-only {
-		@media (min-width: 1224px) { @content; } }
-	@else if $point == desktop-only {
-		@media (min-width: 769px) and (max-width: 1223px) { @content; } }
-	@else if $point == tablet-only {
-		@media (min-width: 481px) and (max-width: 768px) { @content; } }
-	@else if $point == mobile-only {
-		@media (min-width: 261px) and (max-width: 480px)  { @content; } }
-
-}
-
 //-------------------//
 // Spacing variables //
 //-------------------//
@@ -90,11 +58,6 @@ $gap-double: $gap*2;
 	@include breakpoint(tablet)     { margin-left: $gt; margin-right: $gt; }
 	@include breakpoint(desktop)    { margin-left: $gd; margin-right: $gd; }
 }
-
-
-// -- #TODO
-// @mixin gap-m-y
-// @mixin gap-m-x
 
 //-----------------//
 // Color variables //

@@ -375,36 +375,112 @@
 			"file": "codepen-boilerplate.scss",
 			"settings":
 			{
-				"buffer_size": 18932,
+				"buffer_size": 19410,
 				"line_ending": "Windows",
 				"name": "// Core settings //"
+			}
+		},
+		{
+			"file": "modules/color.scss",
+			"settings":
+			{
+				"buffer_size": 9740,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "modules/layout.scss",
 			"settings":
 			{
-				"buffer_size": 9683,
+				"buffer_size": 8698,
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"file": "js/master.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 83,
+				"line_ending": "Windows",
+				"name": "$('dl.toggle dt').click(function(e){"
+			}
+		},
+		{
+			"contents": "$size: 50px;\n$time: 0.3s;\n\nbody,html { height: 100%; }\n\n.smart-row {\n  height: 100/3+0%;\n  & span { @include gap-p; height: 100%; }\n}\n\n[class*=\"row_1_\"] {\n  width: $size;\n  height: $size;\n  -webkit-animation-duration: $time;\n  -webkit-animation-iteration-count: infinite;\n  -webkit-animation-direction: ease;\n} [class*=\"row_2_\"] {\n  width: $size * 1.25;\n  height: $size * 1.25;\n  -webkit-animation-duration: $time;\n  -webkit-animation-iteration-count: infinite;\n  -webkit-animation-direction: ease;\n} [class*=\"row_3_\"] {\n  width: $size * 1.5;\n  height: $size * 1.5;\n  -webkit-animation-duration: $time;\n  -webkit-animation-iteration-count: infinite;\n  -webkit-animation-direction: ease;\n}\n\n.row_1_1 {\n  background: $red;\n  -webkit-animation-name: ANIMATION;\n}\n\n.row_1_2 {\n  background: $orange;\n  -webkit-animation-name: ANIMATION;\n}\n\n.row_2_1 {\n  background: $yellow;\n  -webkit-animation-name: ANIMATION;\n}\n\n.row_2_2 {\n  background: $green;\n  -webkit-animation-name: ANIMATION;\n}\n\n.row_3_1 {\n  background: $blue;\n  -webkit-animation-name: ANIMATION;\n}\n\n.row_3_2 {\n  background: $indigo;\n  -webkit-animation-name: ANIMATION;\n}\n\n//------------//\n// Animations //\n//------------//\n\n@-webkit-keyframes ANIMATION {\n  $min: 100px;\n  $max: 200px;\n  from {\n    width: $min;\n  }\n  to {\n    width: $max;\n  }\n}",
+			"settings":
+			{
+				"buffer_size": 1300,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "//---------//\n// Options //\n//---------//\n\n$size = 200;\n$floor_y = 400;\n$moveTo_x = 1000;\n$box_color = '625647';\n$box_color_hover = '382F29';\n$line_color = '382F29';\n\n/*-----  Stage  ------*/\n\nvar stage = new Kinetic.Stage({\n  container: 'container',\n  width: $size*10,\n  height: $size*5\n});\n\n/*-----  Layers  ------*/\n\nvar layer = new Kinetic.Layer();\nvar msg = new Kinetic.Layer();\n\n/*-----  Shapes  ------*/\n\nvar box = new Kinetic.Rect({\n  x: $size/2,\n  y: $size/2,\n  width: $size,\n  height: $size,\n  draggable: true,\n  fill: $box_color,\n  name: 'officialBox'\n});\n\nvar floor = new Kinetic.Line({\n  points: [\n    1000,$floor_y,\n    0,$floor_y\n  ],\n  stroke: $line_color,\n  strokeWidth: 20,\n  name: 'ground'\n});\n\n/*-----  Layer events  ------*/\n\nlayer.on('click', function(evt) {\n  var shape = evt.targetNode;\n  //alert('you clicked on \\\"' + shape.getName() + '\\\"');\n});\n\n/*-----  Shape events  ------*/\n\nbox.on('mouseover', function() {\n  document.body.style.cursor = 'pointer';\n  this.setFill($box_color_hover);\n  this.setOpacity(0.5);\n  writeMessage(msg, 'Mouseover box!');\n  // .. box mouse over\n  layer.draw();\n  boxFloorCollision();\n});\n\nbox.on('mouseup',function(){\n  boxFloorCollision();\n});\n\nbox.on('dragend',function() {\n  document.body.style.cursor = 'default';\n  this.setFill($box_color);\n  this.setOpacity(1);\n  // .. box mouse out\n  msg.clear();\n  layer.draw();\n  boxFloorCollision();\n});\n\n/*-----  Build stage  ------*/\n\nlayer.add(box);\nlayer.add(floor);\nstage.add(msg);\nstage.add(layer);\n\n/*----- Conditional events -----*/\n\nboxFloorCollision();\n\n/*-----  Functions  ------*/\n\nfunction writeMessage(messageLayer, message) {\n  var context = messageLayer.getContext();\n  messageLayer.clear();\n  context.font = '18pt Arial';\n  context.fillStyle = 'black';\n  context.fillText(message,10,25);\n}\n\nfunction boxFloorCollision() {\n  $box_x = box.getX();\n  $box_bottom = box.getY()+box.getHeight();\n  if($box_bottom > $floor_y){\n    //writeMessage(msg, 'Print: '+$box_bottom+' (past line)');\n    floor.setStroke('orangered');\n  } else {\n    //writeMessage(msg, 'Print: '+$box_bottom+' (before line)');\n    floor.setStroke('$line_color');\n  }\n}",
+			"settings":
+			{
+				"buffer_size": 2150,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n@for $i from 1 through 10 { }\n\nInterpolation: #{$i}",
+			"settings":
+			{
+				"buffer_size": 52,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "@import \"compass\";\n\n.ELEMENT {\n	-webkit-animation-name: ANIMATION;\n  -webkit-animation-duration: 1.3s;\n  -webkit-animation-iteration-count: infinite;\n  -webkit-animation-direction: ease;\n}\n\n@-webkit-keyframes ANIMATION {\n  $min: 100px;\n  $max: 200px;\n  from {\n    width: $min;\n  }\n  to {\n    width: $max;\n  }\n}",
+			"settings":
+			{
+				"buffer_size": 310,
+				"line_ending": "Windows",
+				"name": "@import \"compass\";"
+			}
+		},
+		{
+			"contents": "@import \"compass\";\n\n.ELEMENT {\n	-webkit-animation-name: ANIMATION;\n  -webkit-animation-duration: 1.3s;\n  -webkit-animation-iteration-count: infinite;\n  -webkit-animation-direction: ease;\n}\n\n@-webkit-keyframes ANIMATION {\n  $min: 100px;\n  $max: 200px;\n  0% {\n    width\n    : $min;\n  }\n  50% {\n    width: $max;\n  }\n  100% {\n    width: $min;\n  }\n}",
+			"settings":
+			{
+				"buffer_size": 344,
+				"line_ending": "Windows",
+				"name": "@import \"compass\";"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 334.0,
 		"selected_items":
 		[
 			[
+				"commen",
+				"Snippet: Comment - Section footer comment"
+			],
+			[
+				"comment",
+				"Snippet: Comment - Section footer comment"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
 				"scss",
 				"Set Syntax: SCSS"
+			],
+			[
+				"haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"trasition",
+				"Snippet: SCSS - Transition"
 			],
 			[
 				"tranti",
@@ -443,16 +519,8 @@
 				"Snippet: lorem - HTML Kitchen sink"
 			],
 			[
-				"java",
-				"Set Syntax: JavaScript"
-			],
-			[
 				"place",
 				"Placehold.it: Insert Image"
-			],
-			[
-				"haml",
-				"Set Syntax: Ruby Haml"
 			],
 			[
 				"list",
@@ -495,16 +563,8 @@
 				"Snippet: Image - Placeholder"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"lemons",
 				"Snippet: Lemonstand - Root URL"
-			],
-			[
-				"comment",
-				"Snippet: Comment - Section header comment"
 			],
 			[
 				"vertica",
@@ -896,6 +956,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"$background-color",
+			"iX",
+			"moveToX",
+			".pop-up-bg",
+			".pop-up",
 			"	",
 			"-light",
 			"R",
@@ -1018,12 +1083,7 @@
 			"info-summary",
 			"//",
 			"} //",
-			"//",
-			"page-header-box-shadow",
-			"nav-box-shadow",
-			"group-button-link",
-			"select",
-			"        margin-top: 1em;\n"
+			"//"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1031,6 +1091,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			".pop-up-top",
 			"  ",
 			"color-black-tint",
 			"color-white-tint",
@@ -1149,7 +1210,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1157,15 +1218,15 @@
 					"file": "codepen-boilerplate.scss",
 					"settings":
 					{
-						"buffer_size": 18932,
+						"buffer_size": 19410,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								18932
+								2203,
+								2203
 							]
 						],
 						"settings":
@@ -1308,25 +1369,184 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1034.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "modules/layout.scss",
+					"file": "modules/color.scss",
 					"settings":
 					{
-						"buffer_size": 9683,
+						"buffer_size": 9740,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3468,
-								3468
+								514,
+								514
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "modules/layout.scss",
+					"settings":
+					{
+						"buffer_size": 8698,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1468,24 +1688,185 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2120.0,
+						"translation.y": 52.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
+					"file": "js/master.js",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 83,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								34,
+								37
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_name": "$('dl.toggle dt').click(function(e){",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"is_xml": false,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"settings":
+					{
+						"buffer_size": 1300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1179,
+								1179
 							]
 						],
 						"settings":
@@ -1534,6 +1915,158 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
+							"is_xml": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 998.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"settings":
+					{
+						"buffer_size": 2150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								468,
+								468
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_xml": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"settings":
+					{
+						"buffer_size": 52,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_xml": false,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -1545,13 +2078,155 @@
 			]
 		},
 		{
+			"selected": 1,
 			"sheets":
 			[
-			]
-		},
-		{
-			"sheets":
-			[
+				{
+					"buffer": 7,
+					"settings":
+					{
+						"buffer_size": 310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "@import \"compass\";",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_xml": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"settings":
+					{
+						"buffer_size": 344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "@import \"compass\";",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_xml": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -1600,13 +2275,13 @@
 		"cols":
 		[
 			0.0,
-			0.794054487179,
+			0.609054487179,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.79754601227,
+			0.257445761644,
 			0.948875255624,
 			1.0
 		]
@@ -1622,6 +2297,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"gap",
+				"/C/Users/UniZero/Documents/GitHub/Codepen-boilerplate/codepen-boilerplate.scss"
+			],
 			[
 				"tekrider",
 				"resources/css/layout/_tekrider_framework.scss"
@@ -2129,10 +2808,6 @@
 			[
 				"promoprice",
 				"template_files/default/partials/shop;product;promo;price.php"
-			],
-			[
-				"options",
-				"template_files/default/partials/shop;product;options.php"
 			]
 		],
 		"width": 0.0

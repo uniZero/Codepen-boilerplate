@@ -91,10 +91,24 @@ $gap-double: $gap*2;
 	@include breakpoint(desktop)    { margin-left: $gd; margin-right: $gd; }
 }
 
+//----------------------//
+// General purpose grid //
+//----------------------//
 
-// -- #TODO
-// @mixin gap-m-y
-// @mixin gap-m-x
+@mixin grid-parent {
+  text-align: justify;
+  font-size: 0.1px; /*hide whitespace between elements*/
+  &:after {
+    content: '';
+    display: inline-block;
+    //width: 100%;
+  }
+}
+
+@mixin grid-item($col: 4, $len: 1) {
+  display: inline-block;
+  width: (100%/$col)*$len;
+}
 
 //-----------------//
 // Color variables //
