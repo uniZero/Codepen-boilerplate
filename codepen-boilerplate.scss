@@ -142,6 +142,66 @@ $gap-double: $gap*2;
   user-select: none;
 }
 
+//-------------------------//
+// Inner element alignment //
+//-------------------------//
+
+@mixin inner-align-parent {
+  display: inline-block;
+  position: relative;
+}
+
+.inner-align-parent {
+    @include inner-align-parent;
+}
+
+@mixin inner-align-child($x-axis,$y-axis) {
+  
+  $translateX: 0%;
+  $translateY: 0%;
+  
+  @if $x-axis == 'left' {
+    left: 0;
+    right: auto;
+    $translateX: 0%;
+  }
+  
+  @if $x-axis == 'right' {
+    left: auto;
+    right: 0;
+    $translateX: 0%;
+  }
+  
+  @if $x-axis == 'center' {
+    left: 50%;
+    right: auto;
+    $translateX: -50%;
+  }
+  
+  @if $y-axis == 'top' {
+    top: 0;
+    bottom: auto;
+    $translateY: 0%;
+  }
+  
+  @if $y-axis == 'bottom' {
+    top: auto;
+    bottom: 0;
+    $translateY: 0%;
+  }
+  
+  @if $y-axis == 'middle' {
+    top: 50%;
+    bottom: auto;
+    $translateY: -50%;
+  }
+  
+  position: absolute;
+  -webkit-transform: translate($translateX,$translateY);
+  transform: translate($translateX, $translateY);
+  
+}
+
 //-----------------//
 // Color variables //
 //-----------------//
