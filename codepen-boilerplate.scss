@@ -95,20 +95,30 @@ $gap-double: $gap*2;
 // General purpose grid //
 //----------------------//
 
-@mixin grid-parent {
+@mixin grid-parent($tpad:"") {
   text-align: justify;
   font-size: 0.1px; /*hide whitespace between elements*/
   &:after {
     content: '';
     display: inline-block;
-    //width: 100%;
+  }
+  @if $tpad != "" {
+    margin-right: -$tpad;
+    width: auto;
   }
 }
 
-@mixin grid-item($col: 4, $len: 1) {
+@mixin grid-item($col: 4, $len: 1, $tpad:"") {
   display: inline-block;
   width: (100%/$col)*$len;
+  text-align: left;
+  font-size: 16px;
+  @if $tpad != "" {
+    padding-right: $tpad;
+    margin-bottom: $tpad;
+  }
 }
+
 
 //-----------------------------------//
 // Disable text selection on element //
