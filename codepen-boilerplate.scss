@@ -119,6 +119,15 @@ $gap-double: $gap*2;
   }
 }
 
+//-------------//
+// Link colors //
+//-------------//
+
+@mixin link-color($reg,$hover,$active) {
+    color: $reg;
+    &:hover {color:$hover;}
+    &:active {color:$active;}
+}
 
 //-----------------------------------//
 // Disable text selection on element //
